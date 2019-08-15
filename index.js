@@ -9,5 +9,6 @@ function destructivelyPrependKitten(array, element) {
   return newCats;
 }
 function destructivelyRemoveLastKitten(array) {
-  
+  kittens.pop();
 }
+function destructivelyRemoveFirstKitten(array) {

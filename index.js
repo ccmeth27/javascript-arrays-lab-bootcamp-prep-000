@@ -1,7 +1,10 @@
-var kittens = ["Milo", "Otis", "Garfield"]
+var kittens = ["Milo", "Otis", "Garfield"];
 
-function destructivelyAppendKittens(array, element) {
+function destructivelyAppendKitten(array, element) {
   var newKittens = kittens.concat("Ralph");
   return newKittens;
 }
-function destructively
+function destructivelyPrependKitten(array, element) {
+  var newCats = kittens.slice("Bob");
+  return newCats;
+}

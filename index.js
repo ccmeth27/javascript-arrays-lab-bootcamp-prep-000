@@ -20,8 +20,11 @@ function prependKitten(name) {
   var newKittens = [name, ...kittens];
   return newKittens;
 }
-function removeLastKitten(array) {
+function removeLastKitten() {
   var newCat = kittens.slice(3);
   return newCat;
 }
-function removeFirstKitten()
+function removeFirstKitten() {
+  var newCats = kittens.slice(1);
+  return newCats;
+}

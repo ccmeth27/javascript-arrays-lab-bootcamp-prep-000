@@ -16,3 +16,6 @@ function appendKitten(name) {
   var newKitten = [...kittens, name];
   return newKitten();
 }
+function prependKitten(name) {
+  var newKittens = [name, ...kittens];
+  return newKittens;
